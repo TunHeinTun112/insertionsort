@@ -1,0 +1,35 @@
+.button {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.button button {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 2px;
+    background: #fff;
+    border: 1px solid #033fe8;
+    color: #16210b;
+    font-weight: 200;
+    text-shadow: none;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background: rgba(3, 63, 232, .5);
+    color: #fff;
+}
+
+.button button.active {
+
+    background: #033fe8;
+    color: #fff;
+    pointer-events: none;
+}
+
+.button button:focus {
+    box-shadow: none;
+    outline: none;
+}
